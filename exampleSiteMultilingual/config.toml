@@ -42,21 +42,21 @@ url = "https://github.com/mitrichius/hugo-theme-anubis"
 
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "关于"
 url = "/about/"
-weight = 1
+weight = 3
 
 [[menu.main]]
-identifier = "tags"
+identifier = "标签"
 name = "Tags"
 url = "/tags/"
 weight = 2
 
 [[menu.main]]
-name = "Archive"
+name = "文章"
 identifier = "archive"
 url = "/posts/"
-weight = 3
+weight = 1
 
 [taxonomies]
 category = "categories"
