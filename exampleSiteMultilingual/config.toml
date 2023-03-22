@@ -1,60 +1,66 @@
+baseURL = ""
 languageCode = "zh"
-baseUrl = ""
 title = "地铁上的耳机"
-theme = "anubis"
-paginate = 10
-disqusShortname = "yourdiscussshortname"
-googleAnalytics = "G-12345"
-enableRobotsTXT = true
+theme = "乐天"
+paginate = 3
 
-[[menu.main]]
-identifier = "archive"
-name = "Archive"
-title = "Archive"
-url = "/posts/"
-weight = 0
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Happyhah"
 
 [params]
-author = "Happy"
-email = "mail@example.org"
-avatar = "/images/me.png"
-description = ""
-dateFormat = "2023-03-22"
+author = "Happyhah"
+description = "记录与分享"
+dateFormat = "2006-01-02"
 paginationSinglePost = true
-style = "light-without-switcher"
+style = "auto"
 readMore = false
-readNextPosts = 5
-disableSummary = false
+readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
-utterancesRepo = ""
-utterancesTheme = ""
-utterancesIssue = ""
-utterancesLabel = ""
+
+# Graphcomment support
 graphcommentId = ""
 
-  [params.isso]
-  enabled = true
-  data = "https://comments.example.com/"
-  jsLocation = "https://comments.example.com/js/embed.min.js"
-  css = true
-  lang = "de"
-  replyToSelf = true
-  requireAuthor = true
-  requireEmail = true
-  id = "thread-id"
-  avatar = true
-  avatar-bg = "#f0f0f0"
-  feed = false
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
 
-  [params.webmentions]
-  url = "https://yourdomain.com/webemntions/receive"
-  login = "hugo-theme-anubis"
-  pingback = true
+[[params.social]]
+id = "docs"
+url = "https://gohugo.io/documentation/"
 
-  [[params.social]]
-  id = "github"
-  name = "gohugoio"
+[[params.social]]
+id = "github"
+url = "https://github.com/mitrichius/hugo-theme-anubis"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
 
 [markup.goldmark.renderer]
 unsafe = true
