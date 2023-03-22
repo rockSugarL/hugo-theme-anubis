@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 languageCode = "zh"
 title = "地铁上的耳机"
 theme = "anubis"
-paginate = 3
+paginate = 4
 
 disqusShortname = ""
 googleAnalytics = ""
@@ -16,7 +16,7 @@ description = "记录与分享。"
 dateFormat = "2023-03-22"
 paginationSinglePost = true
 style = "auto"
-readMore = false
+readMore = true
 readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
