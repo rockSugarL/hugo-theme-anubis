@@ -1,8 +1,8 @@
 baseURL = ""
 languageCode = "zh-cn"
 title = "地铁上的耳机"
-theme = "乐天"
-paginate = 3
+theme = "乐天style"
+paginate = 10
 
 disqusShortname = ""
 googleAnalytics = ""
