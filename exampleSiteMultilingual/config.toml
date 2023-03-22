@@ -1,7 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-defaultContentLanguage = "cn-zh"
-title = "地铁上的耳机"
+title = "Anubis"
 theme = "anubis"
 paginate = 3
 
@@ -9,19 +8,18 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [author]
-name = "happyhah"
+name = "Dmitry Kolosov"
 
 [params]
-author = "happyhah"
-description = "记录与分享."
-dateFormat = "2023-03-22"
+author = "Dmitry Kolosov"
+description = "Anubis is a simple minimalist theme for Hugo blog engine."
+dateFormat = "2006-01-02"
 paginationSinglePost = true
 style = "auto"
 readMore = false
 readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
-locale = "cn-zh"
 
 # Graphcomment support
 graphcommentId = ""
@@ -31,7 +29,7 @@ utterancesRepo = ""  # mandatory
 utterancesTheme = "" # optional
 utterancesIssue = "" # optional
 utterancesLabel = "" # optional
-  
+
 [[params.social]]
 id = "docs"
 url = "https://gohugo.io/documentation/"
@@ -40,8 +38,7 @@ url = "https://gohugo.io/documentation/"
 id = "github"
 url = "https://github.com/mitrichius/hugo-theme-anubis"
 
-[languages.cn]
-languageName = "中文"
+[menu]
 
 [[menu.main]]
 identifier = "about"
@@ -60,30 +57,6 @@ name = "Archive"
 identifier = "archive"
 url = "/posts/"
 weight = 3
-
-[languages.en]
-languageName = "英文"
-
-[[languages.en.menu.main]]
-identifier = "about"
-name = "O Hugo"
-url = "/about/"
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tagi"
-url = "/tags/"
-weight = 2
-
-[[languages.en.menu.main]]
-identifier = "archive"
-name = "Archiwum"
-url = "/posts/"
-weight = 3
-
-[[languages.en.params]]
-locale = "en-US"
 
 [taxonomies]
 category = "categories"
