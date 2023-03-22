@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Anubis"
+title = "地铁上的耳机"
 theme = "anubis"
 paginate = 3
 
@@ -9,12 +9,12 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [author]
-name = "Dmitry Kolosov"
+name = "happyhah"
 
 [params]
-author = "Dmitry Kolosov"
-description = "Anubis is a simple minimalist theme for Hugo blog engine."
-dateFormat = "2006-01-02"
+author = "happyhah"
+description = "记录与分享."
+dateFormat = "2023-03-22"
 paginationSinglePost = true
 style = "auto"
 readMore = false
