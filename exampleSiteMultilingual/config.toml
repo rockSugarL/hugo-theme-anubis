@@ -1,66 +1,60 @@
-baseURL = "https://example.com"
 languageCode = "zh"
+baseUrl = ""
 title = "地铁上的耳机"
 theme = "anubis"
-paginate = 4
+paginate = 10
+disqusShortname = "yourdiscussshortname"
+googleAnalytics = "G-12345"
+enableRobotsTXT = true
 
-disqusShortname = ""
-googleAnalytics = ""
-
-[author]
-name = "happy"
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+title = "Archive"
+url = "/posts/"
+weight = 0
 
 [params]
-author = "happy"
-description = "记录与分享。"
+author = "Happy"
+email = "mail@example.org"
+avatar = "/images/me.png"
+description = ""
 dateFormat = "2023-03-22"
 paginationSinglePost = true
-style = "auto"
-readMore = true
-readNextPosts = 2
+style = "light-without-switcher"
+readMore = false
+readNextPosts = 5
+disableSummary = false
 copyCodeButton = true
 rssAsSocialIcon = true
-
-# Graphcomment support
+utterancesRepo = ""
+utterancesTheme = ""
+utterancesIssue = ""
+utterancesLabel = ""
 graphcommentId = ""
 
-# utteranc.es support
-utterancesRepo = ""  # mandatory
-utterancesTheme = "" # optional
-utterancesIssue = "" # optional
-utterancesLabel = "" # optional
+  [params.isso]
+  enabled = true
+  data = "https://comments.example.com/"
+  jsLocation = "https://comments.example.com/js/embed.min.js"
+  css = true
+  lang = "de"
+  replyToSelf = true
+  requireAuthor = true
+  requireEmail = true
+  id = "thread-id"
+  avatar = true
+  avatar-bg = "#f0f0f0"
+  feed = false
 
-[[params.social]]
-id = "docs"
-url = "https://gohugo.io/documentation/"
+  [params.webmentions]
+  url = "https://yourdomain.com/webemntions/receive"
+  login = "hugo-theme-anubis"
+  pingback = true
 
-[[params.social]]
-id = "github"
-url = "https://github.com/mitrichius/hugo-theme-anubis"
-
-[menu]
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 1
-
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 2
-
-[[menu.main]]
-name = "Archive"
-identifier = "archive"
-url = "/posts/"
-weight = 3
-
-[taxonomies]
-category = "categories"
-tag = "tags"
+  [[params.social]]
+  id = "github"
+  name = "gohugoio"
 
 [markup.goldmark.renderer]
 unsafe = true
