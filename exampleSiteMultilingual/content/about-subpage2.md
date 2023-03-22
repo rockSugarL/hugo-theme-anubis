@@ -1,24 +1,24 @@
 ---
-title: "Second About Subpage"
-description: "Second About Subpage"
-date: "2019-02-28"
-author: "Hugo Authors"
+title: "心愿盒"
+description: ""
+date: "2023-03-22"
+author: "Happyhah"
 slug: /about/subpage2
 menu:
   subpage:
     identifier: about-subpage-s2
     parent: about
-    name: About Subpage
-    title: About Subpage
+    name: 摄影集
+    title: 摄影集
     url: /about/subpage/
     weight: 1
   subpage2:
     identifier: about-subpage2-s2
     parent: about
-    name: Second About Subpage
-    title: Second About Subpage
+    name: 心愿盒
+    title: 心愿盒
     url: /about/subpage2/
     weight: 10
 ---
 
-Second About subpage
+心愿盒

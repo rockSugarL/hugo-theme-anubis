@@ -21,4 +21,4 @@ menu:
     weight: 10
 ---
 
-摄影集
+About subpage
