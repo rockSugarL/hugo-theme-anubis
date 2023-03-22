@@ -47,7 +47,7 @@ url = "/about/"
 weight = 3
 
 [[menu.main]]
-identifier = "Tags"
+identifier = "tags"
 name = "标签"
 url = "/tags/"
 weight = 2
