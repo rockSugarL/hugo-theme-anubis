@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "cn-zh"
 title = "地铁上的耳机"
 theme = "anubis"
 paginate = 3
