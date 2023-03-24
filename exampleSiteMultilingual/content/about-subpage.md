@@ -46,10 +46,6 @@ menu:
       <td>更换主题为gruvbox</td>
     </tr>
     <tr>
-      <td>2023-03-10</td>
-      <td>更换主题为gruvbox</td>
-    </tr>
-    <tr>
       <td>2023-03-21</td>
       <td>更换主题为internent-weblog</td>
     </tr>
