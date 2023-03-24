@@ -55,7 +55,7 @@ weight = 2
 [[menu.main]]
 name = "文章"
 identifier = "archive"
-url = "/archives/"
+url = "/posts/"
 weight = 1
 
 [taxonomies]
