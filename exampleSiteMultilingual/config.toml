@@ -12,8 +12,9 @@ name = "Happyhah"
 
 [params]
 author = "Happyhah"
+avatar = "/images/me.jpg"
 description = "记录与分享"
-dateFormat = "2006-01-02"
+dateFormat = "2023-03-24"
 paginationSinglePost = true
 style = "auto"
 readMore = false
