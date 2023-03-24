@@ -8,8 +8,8 @@ menu:
   subpage:
     identifier: about-subpage
     parent: about
-    name: 摄影集
-    title: 摄影集
+    name: 大事记
+    title: 大事记
     url: /about/subpage/
     weight: 1
   subpage2:
