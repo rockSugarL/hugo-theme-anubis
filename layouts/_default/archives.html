@@ -25,7 +25,7 @@
     <h3>{{ .Key }}</h3>
 
     <ul class="archive-list">
-      {{ range (where .Pages "Type" "blog") }}
+      {{ range (where .Pages "Type" "post") }}
       <li>
         {{ .PublishDate.Format "2006-01-02" }} ->
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
