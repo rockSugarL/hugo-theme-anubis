@@ -70,7 +70,8 @@ if isset .Site.Params.webmentions "login" }}
 
 {{ if and (.Site.GoogleAnalytics) (hugo.IsProduction) }} {{ template
 "_internal/google_analytics.html" . }} {{ end }} {{ partial "head-extra.html" .
-}} #通过浏览器在各个音乐平台获取音频
+}}
+
 <!-- require APlayer -->
 <link
   rel="stylesheet"
