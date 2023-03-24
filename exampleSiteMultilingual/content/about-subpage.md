@@ -59,8 +59,4 @@ menu:
       <td>2023-03-22</td>
       <td>更换主题为anubis</td>
     </tr>
-    <tr>
-      <td>2023-03-2<4/td>
-      <td>更新about界面</td>
-    </tr>
 </table>
