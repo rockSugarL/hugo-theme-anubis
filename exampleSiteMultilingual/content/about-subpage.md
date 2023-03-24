@@ -1,5 +1,5 @@
 ---
-title: "大事记"
+title: "博客装修大事记"
 description: "建站历史"
 date: "2023-03-22"
 author: "Happyhah"
@@ -20,8 +20,6 @@ menu:
     url: /about/subpage2/
     weight: 10
 ---
-
-### 博客装修大事记
 
 <table>
   <thead>
