@@ -1,5 +1,5 @@
 ---
-title: "关于我"
+title: "About"
 description: ""
 date: "2023-03-22"
 aliases: ["about-us", "contact"]
@@ -31,7 +31,7 @@ menu:
 ### 嗨-----!
 
 <div>
-<p>你好！这是我的博客，记录一些<a href="https://godpen.bearblog.dev">[书影音]</a>，听过的音乐，以及<a href="https://iris.to/happyhah">[生活点滴]</a>。</p>
+<p>你好！这是我的博客，记录一些<a href="https://godpen.bearblog.dev">[摘抄]</a>，听过的音乐，以及<a href="https://iris.to/happyhah">[生活点滴]</a>。</p>
 <p>
 "骑车、登山请喊我"
 <br>
@@ -47,7 +47,7 @@ menu:
 
 <div>
 <p>给自己定一个小目标：每天写日记，哪怕只有几句话，甚至几个词。</p>
-<p>写于2023-2-9</p>
+<p>最后更新于2023-2-9</p>
 </div>
 
 ### Theme Song
