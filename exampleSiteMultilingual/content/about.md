@@ -56,11 +56,14 @@ menu:
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=30394746&auto=0&height=66"></iframe>
 <figcaption>
     <em>
-        <span style="background-color:rgb(225,225,225);">“どうしようもない事で”<br>
+        <span style="background-color:rgb(225,225,225);">“ど</span>
+        うしようもない事で”
+        <br>
+        “躓き悩んだり”
+        <br>
         “でも明日の風吹くままなる様になるさ”
         <br>
         “それが旅する理由だから”
-        </span>
     </em>
 </figcaption>
 </div>
